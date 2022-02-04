@@ -18,4 +18,7 @@ export class SearchBarComponent implements OnInit {
     this.term=event.target.value;
   }
 
+  onFormSubmit(){
+    console.log(this.term);
+  }
 }
